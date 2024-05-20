@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.success-message {
+    color: #008000;
+    font-weight: bold;
+}
+
+.user-info {
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.user-info p:nth-child(odd) {
+    font-weight: bold;
+}
+
+.user-info p:nth-child(even) {
+    color: #666;
+}
