@@ -20,6 +20,6 @@ CREATE TABLE IF NOT EXISTS `username` (
 
 INSERT INTO username (`user`, `password`, `fname`, `lname`, `gender`, `dob`, `country`, `score`, `email`) VALUES 
 ('admin', 'admin', 'Nguyen Van ', 'A', 'Nam', '1990-01-01', 'Viet Nam', 10, 'nguyenvana@gmail.com'),
-('long', '123456', 'Nguyen Van ', 'B', 'Nam', '2003-01-01', 'Viet Nam', 9, 'nguyenvanb@gmail.com'),
-('thai', 'abcdef', 'Hoang Van ', 'C', 'Nam', '2003-01-01', 'Viet Nam', 9, 'hoangvanc@gmail.com'),
-('chinh', '112233', 'Tran Van ', 'D', 'Nam', '2003-01-01', 'Viet Nam', 1, 'tranvand@gmail.com');
+('user', '123456', 'Nguyen Van ', 'B', 'Nam', '2003-01-01', 'Viet Nam', 9, 'nguyenvanb@gmail.com'),
+('manager', 'abcdef', 'Hoang Van ', 'C', 'Nam', '2003-01-01', 'Viet Nam', 9, 'hoangvanc@gmail.com'),
+('customer', '112233', 'Tran Van ', 'D', 'Nam', '2003-01-01', 'Viet Nam', 1, 'tranvand@gmail.com');

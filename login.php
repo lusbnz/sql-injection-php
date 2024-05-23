@@ -22,7 +22,6 @@
 
         $user = $_POST['username'];
         $pass = $_POST['password'];
-
         $sql = "SELECT * FROM username WHERE user = '$user' AND password = '$pass'";
 
         if (mysqli_multi_query($con, $sql)) {
@@ -51,10 +50,8 @@
         } else {
             echo "Lỗi trong quá trình thực hiện câu lệnh: ";
         }
-
         $con->close();
         ?>
-
     </div>
 </body>
 </html>
